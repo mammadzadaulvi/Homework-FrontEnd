@@ -1,0 +1,16 @@
+@use './navigation';
+@use './intro-container';
+@use './diet';
+@use './services';
+@use './menu-sec';
+@use './apps';
+@use './client';
+@use './subscribe-container'; 
+@use './footer';
+@import url('http://fonts.cdnfonts.com/css/product-sans'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

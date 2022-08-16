@@ -1,0 +1,379 @@
+.client{
+    width: 100%;
+    height: 754px;
+    // background-color: aqua;
+    // display: flex;
+    // justify-content: center;
+
+    .salad{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        // background-color: red;
+        margin-top: -180px;
+        background-image: url(../assets/images/salad.png);
+    }
+
+    .ser-con{
+        width: 100%;
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .ser-p{
+            color: #F16214;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+            font-family: Product Sans;
+        }
+    }
+
+    .fav-con{
+        width: 100%;
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .fav-p{
+            color:#000000;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            letter-spacing: 0em;
+            text-align: left;
+            font-family: Product Sans;
+        }
+    }
+
+    .client-con{
+        width: 100%;
+        height: 483px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .client-box{
+            width: 61%;
+            height: 100%;
+            margin-top: 40px;
+            display: flex;
+
+            // border: 1px solid black;
+
+            .box{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .inner-box{
+                    width: 100%;
+                    height: 350px;
+                    
+                    .profile{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        #profile{
+                            border-radius: 50%;
+                        }
+
+                        p{
+                            margin-left: 8px;
+
+                            &:nth-child(1){
+                                font-family: Product Sans;
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 19px;
+                                letter-spacing: 0em;
+                                text-align: left;
+    
+                            }
+
+                            &:nth-child(2){
+                                font-family: Product Sans;
+                                font-size: 13px;
+                                font-weight: 400;
+                                line-height: 16px;
+                                letter-spacing: 0em;
+                                text-align: left;
+
+    
+                            }
+                        }
+                    }
+                    .info-box{
+                        width: 100%;
+                        margin-top: 30px;
+                        display: flex;
+                        justify-content: center;
+
+                        p{
+                            width: 90%;
+                            font-size: 16px;
+                            font-family: Product Sans;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: center;
+                            color: #888888;
+                        }
+                    }
+
+                    .icon-con{
+                        width:100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .icons{
+                            width: 130px;
+                            height: 50px;
+                            margin-top: 30px;
+                            display: flex;
+                            justify-content: space-between;
+
+                            .side-button-1{
+                                width: 50px;
+                                height: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: 1.5px solid #EEEEEE;
+                                border-radius: 10px;
+                                background-color: #F16214;
+
+                                // #arrowcolor{
+                                //     color: #F16214;
+                                // }
+                            }
+
+                            .side-button-2{
+                                width: 50px;
+                                height: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #F16214;
+                                border-radius: 10px;
+                                transform: rotate(-180deg);
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .falafel{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                #falafel{
+                    width: 100%;
+                    height: 92%;
+                    // object-fit: fill;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .salad{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 900px){
+    .client{
+        width: 100%;
+        // height: 754px;
+        // background-color: aqua;
+        // display: flex;
+        // justify-content: center;
+    
+        .ser-con{
+            width: 100%;
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .ser-p{
+                color: #F16214;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: left;
+                font-family: Product Sans;
+            }
+        }
+    
+        .fav-con{
+            width: 100%;
+            margin-top: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .fav-p{
+                color:#000000;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 49px;
+                letter-spacing: 0em;
+                text-align: center;
+                font-family: Product Sans;
+            }
+        }
+    
+        .client-con{
+            width: 100%;
+            height: 483px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .client-box{
+                width: 90%;
+                height: 100%;
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                // border: 1px solid black;
+    
+                .box{
+                    width: calc(50% - 20px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    .inner-box{
+                        width: 100%;
+                        height: 350px;
+                        
+                        .profile{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+    
+                            #profile{
+                                border-radius: 50%;
+                            }
+    
+                            p{
+                                margin-left: 8px;
+    
+                                &:nth-child(1){
+                                    font-family: Product Sans;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    line-height: 19px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+        
+                                }
+    
+                                &:nth-child(2){
+                                    font-family: Product Sans;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    line-height: 16px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+    
+        
+                                }
+                            }
+                        }
+                        .info-box{
+                            width: 100%;
+                            margin-top: 30px;
+                            display: flex;
+                            justify-content: center;
+    
+                            p{
+                                width: 90%;
+                                font-size: 16px;
+                                font-family: Product Sans;
+                                font-weight: 400;
+                                line-height: 24px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                                color: #888888;
+                            }
+                        }
+    
+                        .icon-con{
+                            width:100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+    
+                            .icons{
+                                width: 130px;
+                                height: 50px;
+                                margin-top: 30px;
+                                display: flex;
+                                justify-content: space-between;
+    
+                                .side-button-1{
+                                    width: 50px;
+                                    height: 50px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border: 1.5px solid #EEEEEE;
+                                    border-radius: 10px;
+                                    background-color: #F16214;
+    
+                                    // #arrowcolor{
+                                    //     color: #F16214;
+                                    // }
+                                }
+    
+                                .side-button-2{
+                                    width: 50px;
+                                    height: 50px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: #F16214;
+                                    border-radius: 10px;
+                                    transform: rotate(-180deg);
+                                }
+                            }
+                        }
+    
+                    }
+                }
+    
+                .falafel{
+                    width: calc(50% - 20px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    #falafel{
+                        width: 100%;
+                        height: 56%;
+                        // object-fit: fill;
+                    }
+                }
+            }
+        }
+    }
+}

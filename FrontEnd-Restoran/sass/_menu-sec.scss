@@ -1,0 +1,691 @@
+.menu-sec{
+    width: 100%;
+    height: 1306px;
+    // background-color: burlywood;
+
+    .ser-con{
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .ser-p{
+            color: #F16214;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+            font-family: Product Sans;
+        }
+    }
+
+    .fav-con{
+        width: 100%;
+        margin-top: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .fav-p{
+            color:#000000;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            letter-spacing: 0em;
+            text-align: left;
+            font-family: Product Sans;
+        }
+    }
+
+    .menus-sec{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid #000000;
+
+        .menus{
+            width: 60.9%;
+            height: 66.7%;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            // border: 1px solid #000000;
+
+            .menu{
+                width: 32%;
+                height: 419px;
+                margin-top: 27px;
+                box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+                border-radius: 50px 0px;
+                // border: 1px solid blue;
+                
+                .photo{
+                    width: 100%;
+                    border-top-left-radius: 50px;
+                }
+
+                .prdc-name{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+    
+                    div{
+                        p{
+                            font-family: Product Sans;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+    
+                        }
+                    }
+                }
+
+                .addto{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+
+                    .buttonadd{
+                        width: 100px;
+                        height: 40px;
+                        border-radius: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #F16214;
+
+                        p{
+                            font-family: Product Sans;
+                            font-size: 11px;
+                            font-weight: 700;
+                            line-height: 13px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .price{
+                        font-family: Product Sans;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .centered-button{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+
+        .button{
+            width: 170px;
+            height: 50px;
+            margin-top: 40px;
+            border-radius: 54px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #F16214;
+        
+            p{
+                font-family: Product Sans;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+        
+            .vector{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #FFFFFF;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:1100px) {
+    .menu-sec{
+        width: 100%;
+        height: 1306px;
+        // background-color: burlywood;
+    
+        .ser-con{
+            width: 100%;
+            // margin-top: 97px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .ser-p{
+                color: #F16214;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: left;
+                font-family: Product Sans;
+            }
+        }
+    
+        .fav-con{
+            width: 100%;
+            margin-top: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .fav-p{
+                color:#000000;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 49px;
+                letter-spacing: 0em;
+                text-align: left;
+                font-family: Product Sans;
+            }
+        }
+    
+        .menus-sec{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // border: 1px solid #000000;
+    
+            .menus{
+                width: 88%;
+                height: 66.7%;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                // border: 1px solid #000000;
+    
+                .menu{
+                    width: 32%;
+                    height: 419px;
+                    margin-top: 27px;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+                    border-radius: 50px 0px;
+                    // border: 1px solid blue;
+                    
+                    .photo{
+                        width: 100%;
+                        border-top-left-radius: 50px;
+                    }
+    
+                    .prdc-name{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+        
+                        div{
+                            p{
+                                font-family: Product Sans;
+                                font-size: 20px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                letter-spacing: 0em;
+                                text-align: left;
+        
+                            }
+                        }
+                    }
+    
+                    .addto{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+    
+                        .buttonadd{
+                            width: 100px;
+                            height: 40px;
+                            border-radius: 50px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #F16214;
+    
+                            p{
+                                font-family: Product Sans;
+                                font-size: 11px;
+                                font-weight: 700;
+                                line-height: 13px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                color: #FFFFFF;
+                            }
+                        }
+    
+                        .price{
+                            font-family: Product Sans;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .centered-button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+            .button{
+                width: 170px;
+                height: 50px;
+                margin-top: 40px;
+                border-radius: 54px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #F16214;
+            
+                p{
+                    font-family: Product Sans;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                }
+            
+                .vector{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    .menu-sec{
+        width: 100%;
+        height: 100%;
+        // background-color: burlywood;
+    
+        .ser-con{
+            width: 100%;
+            // margin-top: 97px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .ser-p{
+                color: #F16214;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: center;
+                font-family: Product Sans;
+            }
+        }
+    
+        .fav-con{
+            width: 100%;
+            margin-top: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .fav-p{
+                color:#000000;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 49px;
+                letter-spacing: 0em;
+                text-align: center;
+                font-family: Product Sans;
+            }
+        }
+    
+        .menus-sec{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // border: 1px solid #000000;
+    
+            .menus{
+                // width: 88%;
+                width: 96%;
+                max-width: 900px;
+                height: 66.7%;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                // border: 1px solid #000000;
+    
+                .menu{
+                    width: 49%;
+                    height: 419px;
+                    margin-top: 27px;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+                    border-radius: 50px 0px;
+                    // border: 1px solid blue;
+                    
+                    .photo{
+                        width: 100%;
+                        border-top-left-radius: 50px;
+                    }
+    
+                    .prdc-name{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+        
+                        div{
+                            p{
+                                font-family: Product Sans;
+                                font-size: 20px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                            }
+                        }
+                    }
+    
+                    .addto{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+    
+                        .buttonadd{
+                            width: 100px;
+                            height: 40px;
+                            border-radius: 50px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #F16214;
+    
+                            p{
+                                font-family: Product Sans;
+                                font-size: 11px;
+                                font-weight: 700;
+                                line-height: 13px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                color: #FFFFFF;
+                            }
+                        }
+    
+                        .price{
+                            font-family: Product Sans;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .centered-button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+            .button{
+                width: 170px;
+                height: 50px;
+                margin-top: 40px;
+                border-radius: 54px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #F16214;
+            
+                p{
+                    font-family: Product Sans;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                }
+            
+                .vector{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:600px) {
+    .menu-sec{
+        width: 100%;
+        height: 100%;
+        // background-color: burlywood;
+    
+        .ser-con{
+            width: 100%;
+            // margin-top: 97px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .ser-p{
+                color: #F16214;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 17px;
+                letter-spacing: 0em;
+                text-align: center;
+                font-family: Product Sans;
+            }
+        }
+    
+        .fav-con{
+            width: 100%;
+            margin-top: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .fav-p{
+                color:#000000;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 49px;
+                letter-spacing: 0em;
+                text-align: center;
+                font-family: Product Sans;
+            }
+        }
+    
+        .menus-sec{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // border: 1px solid #000000;
+    
+            .menus{
+                // width: 88%;
+                width: 100%;
+                max-width: 600px;
+                height: 66.7%;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                // border: 1px solid #000000;
+    
+                .menu{
+                    width: 49%;
+                    height: 100%;
+                    margin-top: 27px;
+                    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+                    border-radius: 50px 0px;
+                    // border: 1px solid blue;
+                    
+                    .photo{
+                        width: 100%;
+                        border-top-left-radius: 50px;
+                    }
+    
+                    .prdc-name{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+        
+                        div{
+                            p{
+                                font-family: Product Sans;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                            }
+                        }
+                    }
+    
+                    .addto{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 10px;
+    
+                        .buttonadd{
+                            width: 100px;
+                            height: 40px;
+                            border-radius: 50px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #F16214;
+    
+                            p{
+                                font-family: Product Sans;
+                                font-size: 11px;
+                                font-weight: 700;
+                                line-height: 13px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                color: #FFFFFF;
+                            }
+                        }
+    
+                        .price{
+                            font-family: Product Sans;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+    
+                        }
+                    }
+                }
+            }
+        }
+    
+        .centered-button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+    
+            .button{
+                width: 170px;
+                height: 50px;
+                margin-top: 40px;
+                border-radius: 54px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #F16214;
+            
+                p{
+                    font-family: Product Sans;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                }
+            
+                .vector{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
